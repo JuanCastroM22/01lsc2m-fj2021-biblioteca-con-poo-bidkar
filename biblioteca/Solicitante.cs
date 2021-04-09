@@ -2,10 +2,10 @@ namespace biblioteca
 {
     class Solicitante
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Teléfono { get; set; }
-        public string CorreoElectrónico { get; set; }
-        public string Domicilio { get; set; }
+        public int Id;
+        public string Nombre; 
+        public string Teléfono;
+        public string CorreoElectrónico;
+        public string Domicilio;
     }
 }

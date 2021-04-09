@@ -5,15 +5,15 @@ namespace biblioteca
 {
     class Libro
     {
-        public int Id { get; set; }
-        public string Titulo { get; set; }
-        public Editorial Editorial { get; set; }
-        public DateTime FechaDeEdición { get; set; }
-        public List<Autor> Autores { get; set; }
-        public List<Categoria> Categorías { get; set; }
-        public int NúmeroDePáginas { get; set; }
-        public string Isbn { get; set; }
-        public string Idioma { get; set; }
-        public string Portada { get; set; }
+        public int Id;
+        public string Titulo;
+        public Editorial Editorial;
+        public DateTime FechaDeEdición;
+        public List<Autor> Autores;
+        public List<Categoria> Categorías;
+        public int NúmeroDePáginas;
+        public string Isbn;
+        public string Idioma;
+        public string Portada;
     }
 }

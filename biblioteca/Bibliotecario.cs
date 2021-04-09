@@ -2,8 +2,8 @@ namespace biblioteca
 {
     class Bibliotecario
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public int NúmeroDeEmpleado { get; set; }
+        public int Id;
+        public string Nombre;
+        public int NúmeroDeEmpleado;
     }
 }
